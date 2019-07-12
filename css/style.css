@@ -14,13 +14,23 @@ body {
   background-color: black;
 }
 
+.content {
+  display: inline-block;
+}
+
+.arrow-left {
+  margin-top: 2%;
+}
+
 .arrow {
   float:right;
+  margin-top: 2%;
 }
 
 .location {
-  padding: 4%;
+  padding: 5%;
   background-color: #DFDEE0;
+  border-bottom: 1px solid #A09FA0;
 }
 
 .location:hover {
@@ -39,14 +49,14 @@ nav {
 }
 
 .restaurant-list h1 {
-  font-size: 18px;
+  font-size: 1.8em;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
 .restaurant-list h3 {
-  font-size: 14px;
+  font-size: 1.4em;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   font-weight: 400;
-  margin-top: 5px;
+  margin-top: 3%;
 }
